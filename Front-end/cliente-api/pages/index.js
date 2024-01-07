@@ -34,7 +34,7 @@ const Home = () => {
             <th>Senha</th>
             <th>telefone</th>
             <th>datacadastro</th>
-            <th>Ações</th> {/* Adicione uma coluna para as ações de edição e exclusão */}
+           
           </tr>
         </thead>
         {clients.map((element) => (
