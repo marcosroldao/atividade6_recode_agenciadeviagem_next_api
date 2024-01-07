@@ -10,7 +10,7 @@ const Home = () => {
   useEffect(() => {
     // Faça uma chamada GET para a API Spring Boot
     axios
-      .get("http://viagemapi.somee.com/api/reserva")
+      .get("https://viagemapi.somee.com/api/reserva")
       .then((response) => {
         setClients(response.data);
       })
