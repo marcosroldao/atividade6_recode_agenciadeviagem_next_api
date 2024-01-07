@@ -21,7 +21,7 @@ const Home = () => {
  
   return (
     <div>
-      <h1 className={style.h1}>Lista de Clientes</h1>
+      <h1 className={style.h1}>Lista de Usuários</h1>
       <table className="table container tabela">
         <thead>
           <tr>
